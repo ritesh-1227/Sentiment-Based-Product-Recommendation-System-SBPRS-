@@ -120,7 +120,6 @@ seaborn==0.10.1
 selenium==3.141.0
 Send2Trash==1.5.0
 six==1.14.0
-spacy @ file:///D:/bld/spacy_1589387720787/work
 squarify==0.4.3
 statsmodels==0.11.1
 tensorboard==2.1.0
