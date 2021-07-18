@@ -2,7 +2,6 @@ absl-py==0.9.0
 astor==0.8.0
 astroid==2.4.0
 attrs==19.3.0
-autopep8 @ file:///tmp/build/80754af9/autopep8_1596578164842/work
 backcall==0.1.0
 bleach==3.1.4
 blinker==1.4
@@ -28,20 +27,16 @@ en-core-web-md==2.2.5
 en-core-web-sm==2.2.5
 entrypoints==0.3
 Flask==1.1.2
-future @ file:///D:/bld/future_1610147365175/work
 gapminder==0.1
 gast==0.2.2
 google-auth==1.14.1
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
-graphviz @ file:///tmp/build/80754af9/python-graphviz_1602262908037/work
 grpcio==1.27.2
 gunicorn==20.1.0
-gym @ file:///D:/bld/gym_1608552012916/work
 h5py==2.10.0
 idna==2.9
 imageio==2.8.0
-imbalanced-learn @ file:///home/conda/feedstock_root/build_artifacts/imbalanced-learn_1591716883293/work
 imblearn==0.0
 importlib-metadata==1.6.0
 ipykernel==5.1.4
@@ -55,18 +50,13 @@ joblib==0.14.1
 jsonschema==3.2.0
 jupyter-client==6.1.3
 jupyter-contrib-core==0.3.3
-jupyter-contrib-nbextensions @ file:///D:/bld/jupyter_contrib_nbextensions_1602805661051/work
 jupyter-core==4.6.3
-jupyter-highlight-selected-word @ file:///D:/bld/jupyter_highlight_selected_word_1603234433469/work
-jupyter-latex-envs @ file:///D:/bld/jupyter_latex_envs_1602789063197/work
-jupyter-nbextensions-configurator @ file:///D:/bld/jupyter_nbextensions_configurator_1602769709111/work
 Keras==2.3.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
 llvmlite==0.32.0
-lxml @ file:///D:/bld/lxml_1606483918914/work
 Markdown==3.1.1
 MarkupSafe==1.1.1
 matplotlib==3.1.3
@@ -76,12 +66,9 @@ mistune==0.8.4
 mkl-fft==1.0.15
 mkl-random==1.1.0
 mkl-service==2.3.0
-mlxtend @ file:///home/conda/feedstock_root/build_artifacts/mlxtend_1606368531479/work
 murmurhash==1.0.0
 nbconvert==5.6.1
-nbformat==5.0.6
-networkx @ file:///tmp/build/80754af9/networkx_1598376031484/work
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+nbformat==5.0.
 notebook==6.0.3
 numba==0.49.0
 numpy==1.18.1
@@ -104,8 +91,6 @@ pyasn1-modules==0.2.7
 pybind11==2.5.0
 pycodestyle==2.6.0
 pycparser==2.20
-pydotplus @ file:///tmp/build/80754af9/pydotplus_1594390100614/work
-pyglet @ file:///D:/bld/pyglet_1618311616279/work
 Pygments==2.6.1
 PyJWT==1.7.1
 pylint==2.5.0
@@ -119,7 +104,6 @@ pyreadline==2.1
 pyroomacoustics==0.4.0
 pyrsistent==0.16.0
 PySocks==1.7.1
-pyspellchecker @ file:///home/conda/feedstock_root/build_artifacts/pyspellchecker_1617003555524/work
 python-dateutil==2.8.1
 pytz==2020.1
 PyWavelets==1.1.1
@@ -127,12 +111,10 @@ pywin32==227
 pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==18.1.1
-regex @ file:///C:/ci/regex_1602770568056/work
 requests==2.23.0
 requests-oauthlib==1.3.0
 rsa==4.0
 scikit-image==0.16.2
-scikit-learn @ file:///D:/bld/scikit-learn_1625562629213/work
 scipy==1.4.1
 seaborn==0.10.1
 selenium==3.141.0
@@ -140,7 +122,6 @@ Send2Trash==1.5.0
 six==1.14.0
 spacy @ file:///D:/bld/spacy_1589387720787/work
 squarify==0.4.3
-srsly @ file:///D:/bld/srsly_1589222535061/work
 statsmodels==0.11.1
 tensorboard==2.1.0
 tensorflow==2.1.0
@@ -150,13 +131,10 @@ terminado==0.8.3
 testpath==0.4.4
 textblob==0.15.3
 thinc==7.4.0
-threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1626092076920/work
 toml==0.10.0
 toolz==0.10.0
 tornado==6.0.4
-tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1588513834538/work
 traitlets==4.3.3
-tweepy @ file:///home/conda/feedstock_root/build_artifacts/tweepy_1608988696003/work
 typed-ast==1.4.1
 urllib3==1.25.8
 wasabi==0.6.0
@@ -165,7 +143,6 @@ webencodings==0.5.1
 Werkzeug==0.16.1
 win-inet-pton==1.1.0
 wincertstore==0.2
-wordcloud @ file:///D:/bld/wordcloud_1605555788034/work
 wrapt==1.12.1
 xlrd==1.2.0
 zipp==3.1.0
