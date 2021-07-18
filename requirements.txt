@@ -22,9 +22,6 @@ cytoolz==0.10.1
 dask==2.15.0
 decorator==4.4.2
 defusedxml==0.6.0
-en-core-web-lg==2.2.5
-en-core-web-md==2.2.5
-en-core-web-sm==2.2.5
 entrypoints==0.3
 Flask==1.1.2
 gapminder==0.1
