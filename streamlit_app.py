@@ -13,8 +13,8 @@ if st.button('Get Recommendations'):
     if user:
         data = recommend.getTopProducts(user)
         if data:
-            st.write(data)
+            st.text(data)
         else:
-            st.write("No recommendations available.")
+            st.text("No recommendations available.")
     else:
         st.write("Please enter a User ID.")
