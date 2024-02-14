@@ -13,7 +13,7 @@ if st.button('Get Recommendations'):
     if user:
         data = recommend.getTopProducts(user)
         if data:
-            st.html(data)
+            st.markdown(data, unsafe_allow_html=True)
         else:
             st.text("No recommendations available.")
     else:
