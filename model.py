@@ -15,20 +15,28 @@ class Recommendation:
         
         
     def getTopProducts(self, user):
-        items = self.user_final_rating.loc[user].sort_values(ascending=False)[0:20].index
-        features = pickle.load(open('features.pkl','rb'))
-        vectorizer = TfidfVectorizer(vocabulary = features)
-        temp=self.data[self.data.id.isin(items)]
-        X = vectorizer.fit_transform(temp['Review'])
-        temp=temp[['id']]
-        temp['prediction'] = self.model.predict(X)
-        temp['prediction'] = temp['prediction'].map({'Postive':1,'Negative':0})
-        temp=temp.groupby('id').sum()
-        temp['positive_percent']=temp.apply(lambda x: x['prediction']/sum(x), axis=1)
-        final_list=temp.sort_values('positive_percent', ascending=False).iloc[:5,:].index
-        return self.data[self.data.id.isin(final_list)][['id', 'brand',
-                              'categories', 'manufacturer', 'name']].drop_duplicates().to_html(index=False)
-    
+        try:
+            if user in self.user_final_rating.index:
+                items = self.user_final_rating.loc[user].sort_values(ascending=False)[0:20].index
+                features = pickle.load(open('features.pkl','rb'))
+                vectorizer = TfidfVectorizer(vocabulary = features)
+                temp=self.data[self.data.id.isin(items)]
+                X = vectorizer.fit_transform(temp['Review'])
+                temp=temp[['id']]
+                temp['prediction'] = self.model.predict(X)
+                temp['prediction'] = temp['prediction'].map({'Postive':1,'Negative':0})
+                temp=temp.groupby('id').sum()
+                temp['positive_percent']=temp.apply(lambda x: x['prediction']/sum(x), axis=1)
+                final_list=temp.sort_values('positive_percent', ascending=False).iloc[:5,:].index
+                return self.data[self.data.id.isin(final_list)][['id', 'brand',
+                                      'categories', 'manufacturer', 'name']].drop_duplicates().to_html(index=False)
+            else:
+                print(f"User {user} not found.")
+                return 
+                
+        except KeyError as e:
+            print(f"An error occured: {e}")
+            return
         
         
 
