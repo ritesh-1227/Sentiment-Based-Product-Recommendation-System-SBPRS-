@@ -7,7 +7,7 @@ recommend = Recommendation()
 # Streamlit app layout
 st.title('Product Recommendation System')
 
-user = st.text_input("User ID", "")
+user = st.text_input("User ID", "", placeholder= "Try kimmie, warren or danielle maybe? Sample users for you")
 
 if st.button('Get Recommendations'):
     if user:
