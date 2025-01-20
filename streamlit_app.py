@@ -22,6 +22,6 @@ if st.button('Get Recommendations'):
 # Adding the note at the bottom
 st.markdown("---")  # Adds a horizontal rule for separation
 st.markdown(
-    "_**Note:** This system is for demonstration purposes only. "
-    "Providing a list of all usernames is not practical in this case. Please try out the test names. If you need more, you can always reach out"
+    "**Note:** *This system is for demonstration purposes only.* "
+    "*Providing a list of all usernames is not practical in this case. Please try out the test names. If you need more, you can always reach out*"
 )
